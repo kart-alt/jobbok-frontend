@@ -1,0 +1,39 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="60" cy="40" r="45" fill="url(#grad1)" opacity="0.1"/>
+  <circle cx="340" cy="260" r="55" fill="url(#grad1)" opacity="0.1"/>
+  
+  <!-- Chart/Graph -->
+  <g transform="translate(80, 60)">
+    <!-- Axes -->
+    <line x1="0" y1="120" x2="200" y2="120" stroke="#cbd5e1" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="120" stroke="#cbd5e1" stroke-width="2"/>
+    
+    <!-- Bars -->
+    <rect x="20" y="80" width="25" height="40" fill="url(#grad1)"/>
+    <rect x="55" y="50" width="25" height="70" fill="url(#grad1)"/>
+    <rect x="90" y="20" width="25" height="100" fill="url(#grad1)"/>
+    <rect x="125" y="60" width="25" height="60" fill="url(#grad1)"/>
+    <rect x="160" y="40" width="25" height="80" fill="url(#grad1)"/>
+  </g>
+  
+  <!-- Arrow up (trending) -->
+  <g transform="translate(310, 100)">
+    <path d="M 20 40 L 20 10 M 20 10 L 10 20 M 20 10 L 30 20" stroke="#10b981" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1f2937">
+    Track Your Progress
+  </text>
+</svg>

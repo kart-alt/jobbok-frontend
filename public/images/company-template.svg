@@ -1,0 +1,38 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="companyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="#f0f4ff"/>
+  
+  <!-- Gradient Circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#companyGrad)"/>
+  
+  <!-- Building/Company Icon -->
+  <g transform="translate(100, 100)">
+    <!-- Main building -->
+    <rect x="-25" y="-35" width="50" height="50" fill="white" opacity="0.9"/>
+    
+    <!-- Windows floor 1 -->
+    <rect x="-18" y="-28" width="12" height="12" fill="#667eea"/>
+    <rect x="-2" y="-28" width="12" height="12" fill="#667eea"/>
+    <rect x="6" y="-28" width="12" height="12" fill="#667eea"/>
+    
+    <!-- Windows floor 2 -->
+    <rect x="-18" y="-10" width="12" height="12" fill="#667eea"/>
+    <rect x="-2" y="-10" width="12" height="12" fill="#667eea"/>
+    <rect x="6" y="-10" width="12" height="12" fill="#667eea"/>
+    
+    <!-- Door -->
+    <rect x="-8" y="8" width="16" height="20" fill="#764ba2"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#667eea">
+    Company
+  </text>
+</svg>
